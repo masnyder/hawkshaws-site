@@ -1,0 +1,1 @@
+document.getElementById("menuToggle")?.addEventListener("click",()=>document.getElementById("navLinks").classList.toggle("active"));const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add("visible")}));document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
